@@ -1,0 +1,34 @@
+{
+  "name": "gusarov112/php-enum-doctrine",
+  "description": "Allows to add you custom php enums as doctrine type",
+  "keywords": [
+    "generic",
+    "collection"
+  ],
+  "homepage": "http://github.com/gusarov112/php-enum-doctrine",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anatolii Husarov",
+      "email": "gusar.atm@gmail.com"
+    }
+  ],
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "git@github.com:gusarov112/php-enum.git"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "gusarov112/php-enum": "v1.0.0",
+    "doctrine/orm": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gusarov112\\PhpEnumDoctrine\\": "src/"
+    }
+  }
+}
