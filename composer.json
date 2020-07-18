@@ -13,17 +13,11 @@
       "email": "gusar.atm@gmail.com"
     }
   ],
-  "repositories":[
-    {
-      "type": "vcs",
-      "url": "git@github.com:gusarov112/php-enum.git"
-    }
-  ],
   "require": {
     "php": "^7.1",
     "ext-json": "*",
     "ext-pdo": "*",
-    "gusarov112/php-enum": "v1.0.0",
+    "gusarov112/php-enum": "^v2.0",
     "doctrine/orm": "^2.7"
   },
   "autoload": {
