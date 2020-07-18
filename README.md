@@ -7,17 +7,6 @@ Extension for [php-enum](https://github.com/gusarov112/php-enum) (myclabs fork)
 
 ## Installation
 
-Add github repository to composer.json
-```json
-{
-   "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:gusarov112/php-enum-doctrine.git"
-        }
-    ]
-}
-```
 Than require package
 ```bash
 composer require gusarov112/php-enum-doctrine
